@@ -18,7 +18,7 @@ This command installs all the node modules that are listed in our package.json f
 
 ### How to use it
 
-* 1 You have to specify the city, the country and the unit (C or F). For example :
+* 1) You have to specify the city, the country and the unit (C or F). For example :
 
 ```
 npm start Paris France C
@@ -28,7 +28,7 @@ Also worth to note that the unit displayed by default is Celsius.
 
 If there's any error it will be displayed in Red in the terminal.
 
-* 2 With the help of the meow package we can display help using the command :
+* 2) With the help of the meow package we can display help using the command :
 
 ```
 npm start --help
@@ -60,11 +60,12 @@ usage : 'chalk.red.bold.underline('Hello', 'world');'
  - Package used to check if an update is available and returns an instance of .update if it's the case else returns 'undefined' <br>
  usage : 'updateNotifier({pkg}).notify();'
 
- * [YQL](https://github.com/sindresorhus/meow) 
+
+* [YQL](https://github.com/sindresorhus/meow) 
 - Package that lets us query, filter, and join data across Web services. <br>
 usage : 'SELECT title,abstract FROM search.web WHERE query="pizza";'
 
- * [lodash](https://github.com/lodash/lodash) 
+* [lodash](https://github.com/lodash/lodash) 
 - Lodash makes JavaScript easier by taking the hassle out of working with arrays,
 numbers, objects, strings, etc.  <br>
 usage : '_.chunk(array, [size=1])'
