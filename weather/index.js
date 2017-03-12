@@ -4,8 +4,8 @@ const YQL = require('yql');
 const _ = require('lodash');
 
 /** 
-	@opts is the input of the user 
-	@query the query sent to webservice
+	* @opts is the input of the user 
+	* @query the query sent to webservice
 **/
 module.exports = (opts, callback) => {
 	opts = opts || [];
